@@ -1,0 +1,220 @@
+
+.mainDivData{
+  background: black;
+  color:white;
+  width: 300px;
+  padding: 10px;
+  border: 2px solid silver;
+  margin:5px auto;
+  cursor: pointer;
+  position: relative;
+  font-size: 20px;
+  
+}
+.editButton{
+  float:left;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 2px;
+  top: 10px;
+  background: dodgerblue;
+  color: azure;
+  outline: none;
+  border:none;
+  padding: 5px;
+}
+.addButton{
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 2px;
+  margin-left: 5px;
+  margin-top: 5px;
+  background: black;
+  color: wheat;
+  padding: 10px;
+  outline: none;
+  border:none;
+}
+.jsonData{
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.groceryWrapper{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  align-items: center;
+}
+.groceryItem{
+  width: 200px;
+  height: 100px;
+  background: dodgerblue;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin:5px;
+}
+.divBalanceWrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divBalanceWrapper button{
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  font-weight: bold;
+  outline: none; 
+}
+.divBalance{
+  width: 200px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: mediumaquamarine;
+  margin: 5px;
+  font-weight:bold;
+  font-size: 20px;
+  border-radius: 50%;
+}
+.buyGrocery{
+  background: coral;
+  font-weight: bold;
+  margin-left: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.editForm{
+  display: flex;
+}
+.showMore{
+  text-align: center;
+  margin-top: 5px;
+}
+.showMoreContent{
+  background: red;
+  margin-top: 5px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.buttonShow{
+  background: coral;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+.deleteButton{
+  float:right;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 2px;
+  top: 40px;
+  background: crimson;
+  color: azure;
+  outline: none;
+  border:none;
+  padding: 5px;
+}
+.favoriteButton{
+  margin: 5px ;
+  width: 223px;
+  padding: 10px;
+  background: gold;
+  border:none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.emptyHeart{
+  position: absolute;
+  top: 5px;
+  right: 100px;
+  color: gold;
+}
+.favoriteItem{
+  width: 200px;
+  height: 100px;
+  color: white;
+  background: dodgerblue;
+  margin:20px;
+  border-radius: 5px;
+  position: relative;
+}
+.innerFavoriteItem{
+  position: absolute;
+  left:50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.selectInput{
+  margin: 5px;
+}
+.selectInput select{
+  background: black;
+  color: whitesmoke;
+  border:none;
+  width: 80px;
+  padding: 5px;
+}
+.nameAndHeart{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.searchResultWrapper{
+  margin: 10px auto;
+  text-align: center;
+}
+.searchResultSpan{
+  font-weight: bold;
+  width: 100px;
+}
+.searchResult {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+}
+.searchResultItem{
+  background: dodgerBlue;
+  padding: 10px;
+  margin: 10px;
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.searchForm{
+  width: 600px;
+  height: 100px;
+  background: dodgerblue;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchButton{
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 2px;
+  margin-left: 5px;
+  margin-top: 5px;
+  background: crimson;
+  color: wheat;
+  padding: 10px;
+  outline: none;
+  border:none;
+}
